@@ -28,58 +28,42 @@ const questions = [{
 },
 
 {
-    type: 'input',
+    type: 'list',
     message: 'Which type of team member would you like to add?',
-    choices: 'Engineer, Intern, No more team members to add',
+    name : 'member',
+    choices: ["Engineer", "Intern", "No more team members to add "],
+},
+{
+    type: 'list',
+    message: 'Which type of team member would you like to add?',
+    name : 'member',
+    choices: ["Engineer", "Intern", "No more team members to add "],
+},
+{
+    type: 'list',
+    message: 'Which type of team member would you like to add?',
+    name : 'member',
+    choices: ["Engineer", "Intern", "No more team members to add "],
+},
+{
+    type: 'list',
+    message: 'Which type of team member would you like to add?',
+    name : 'member',
+    choices: ["Engineer", "Intern", "No more team members to add "],
+},
+{
+    type: 'list',
+    message: 'Which type of team member would you like to add?',
+    name : 'member',
+    choices: ["Engineer", "Intern", "No more team members to add "],
+},
+{
+    type: 'list',
+    message: 'Which type of team member would you like to add?',
+    name : 'member',
+    choices: ["Engineer", "Intern", "No more team members to add "],
 },
 
-{
-    type: 'input',
-    message: 'Which type of team member would you like to add?',
-    choices: 'Engineer, Intern, No more team members to add',
-},
-
-{
-    type: 'input',
-    message: 'Which type of team member would you like to add?',
-    choices: 'Engineer, Intern, No more team members to add',
-},
-
-{
-    type: 'input',
-    message: 'Which type of team member would you like to add?',
-    choices: 'Engineer, Intern, No more team members to add',
-},
-
-{
-    type: 'input',
-    message: 'Which type of team member would you like to add?',
-    choices: 'Engineer, Intern, No more team members to add',
-},
-
-{
-    type: 'input',
-    message: 'Which type of team member would you like to add?',
-    choices: 'Engineer, Intern, No more team members to add',
-},
-
-{
-    type: 'input',
-    message: 'Which type of team member would you like to add?',
-    choices: 'Engineer, Intern, No more team members to add',
-},
-
-{
-    type: 'input',
-    message: 'Which type of team member would you like to add?',
-    choices: 'Engineer, Intern, No more team members to add',
-},
-
-{
-    type: 'input',
-    message: 'Which type of team member would you like to add?',
-    choices: 'Engineer, Intern, No more team members to add',
-},
 ]
 inquirer.prompt(questions).then((answers) => {
     console.log(answers);
