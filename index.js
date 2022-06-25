@@ -1,5 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+const utils = require('./utils/htmlGenerator')
 
 
 // managers questions
@@ -97,6 +98,7 @@ const questions = [{
 ]
 inquirer.prompt(questions).then((answers) => {
     console.log(answers);
+    utils.generatePage(answers);
     
     
 });
