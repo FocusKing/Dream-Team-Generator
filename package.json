@@ -5,5 +5,8 @@
   "devDependencies": {
     "inquirer": "^8.2.4",
     "jest": "^28.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
