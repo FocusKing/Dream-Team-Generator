@@ -1,4 +1,4 @@
-describe('Outer', () => {
+describe('Manager', () => {
     describe('Inner', () => {
       it('should be fun', () => {
         const fun = 'fun';

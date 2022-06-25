@@ -1,4 +1,4 @@
-describe('Outer', () => {
+describe('Intern', () => {
     describe('Inner', () => {
       it('should be fun', () => {
         const fun = 'fun';
