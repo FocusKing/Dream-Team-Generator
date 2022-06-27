@@ -1,3 +1,4 @@
+const Employee = require("../utils/employee");
 const Engineer = require("../utils/engineer");
 
 test("Able to create new employee", () => {
@@ -49,11 +50,11 @@ test("Testing getEmail", () => {
 
 test("Testing getRole()", () => {
     const role = "Employee"
-    const engineerTest = new Engineer("Sahil", 123, "Sahil@gmail.com");
+    const engineerTest = new Employee("Sahil", 123, "Sahil@gmail.com");
     expect(engineerTest.getRole()).toBe(role);
 });
 test("Testing getGitHub()", () => {
   const github = "Sahil2468"
   const engineerTest = new Engineer("Sahil", 2468, "Sahil@gmail.com", github);
-  expect(engineerTest.getGitHub()).tobe(github);
+  expect(engineerTest.getGitHub()).toBe(github);
 });

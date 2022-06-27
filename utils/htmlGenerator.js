@@ -33,6 +33,76 @@ const generatePage = ({
     const template = (
         // input HTML
        `
+       <!DOCTYPE html>
+       <html lang="en">
+       
+       <head>
+           <meta charset="UTF-8">
+           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Team Members</title>
+           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+           integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+           <link rel="stylesheet" href="./output/style.css">
+       </head>
+       <h1>
+          Dream Team
+       </h1>
+       <body>
+           <div class='manager'>
+               <h2>
+                   Sahil
+               </h2>
+               <h2>
+                   Manager
+               </h2>
+               <p>
+                   ID: 1
+               </p>
+               <p>
+                   Email:
+               </p>
+               <p>
+                   Office Number:
+               </p>
+           </div>
+           <div class='engineer'>
+               <h2>
+                   Torrae
+               </h2>
+               <h2>
+                   Engineer
+               </h2>
+               <p>
+                   ID: 2
+               </p>
+               <p>
+                   Email:
+               </p>
+               <p>
+                   Github:
+               </p>
+           </div>
+           <div class='intern'>
+               <h2>
+                   Saryn
+               </h2>
+               <h2>
+                   Intern
+               </h2>
+               <p>
+                   ID: 3
+               </p>
+               <p>
+                   Email:
+               </p>
+               <p>
+                   School:
+               </p>
+           </div>
+       </body>
+       
+       </html>
        `
     );
     fs.writeFileSync('./output/index.html', template);

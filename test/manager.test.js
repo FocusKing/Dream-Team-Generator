@@ -1,3 +1,4 @@
+const Employee = require("../utils/employee");
 const Manager = require("../utils/manager");
 
 test("Able to create new employee", () => {
@@ -14,7 +15,7 @@ test("Name tester", () => {
 test("ID tester", () => {
     const id = 123
     const managerTest = new Manager("Sahil", id);
-    expect(engineerTest.id).toBe(id);
+    expect(managerTest.id).toBe(id);
 });
 
 test("Email tester", () => {
@@ -49,11 +50,11 @@ test("Testing getEmail", () => {
 
 test("Testing getRole()", () => {
     const role = "Employee"
-    const managerTest = new Manager("Sahil", 123, "Sahil@gmail.com");
+    const managerTest = new Employee("Sahil", 123, "Sahil@gmail.com");
     expect(managerTest.getRole()).toBe(role);
 });
-test("Testing getGitHub()", () => {
-  const github = "Sahil2468"
-  const managerTest = new Manager("Sahil", 2468, "Sahil@gmail.com", github);
-  expect(managerTest.getGitHub()).tobe(github);
-});
+// test("Testing getGitHub()", () => {
+//   const github = "Sahil2468"
+//   const managerTest = new Manager("Sahil", 2468, "Sahil@gmail.com", github);
+//   expect(managerTest()).toBe(github);
+// });

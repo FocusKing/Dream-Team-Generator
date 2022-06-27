@@ -45,7 +45,7 @@ SO THAT I have quick access to their emails and GitHub profiles
 ## Visuals
 ![DreamTeam image](./images/Dream%20Team%20Generator.png)
 ## Credits
-List your collaborators, I was fortunate enough to get additional assistance from class mates either during office hours or during private study group sessions after class. I truly appreciate any help that I have received throughout this project.
+ I was fortunate enough to get additional assistance from class mates either during office hours or during private study group sessions after class. I truly appreciate any help that I have received throughout this project.
 
 [Screencastify-Link]
 
