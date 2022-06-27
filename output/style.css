@@ -37,6 +37,14 @@
     transition: 0.5s;
     display: flexbox;
 } */
-.i {
-    color: white;
+/* .container-fluid {
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+} */
+.shadow {
+     
+box-shadow: 5px 10px #888888;
+      
+      
 }
