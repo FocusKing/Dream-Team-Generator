@@ -7,13 +7,13 @@ const utils = require('./utils/htmlGenerator')
 const questions = [{
     type: 'input',
     message: 'What is the team manager\'s name?',
-    name: 'name',
+    name: 'manager',
 },
 
 {
     type: 'input',
     message: 'What is the team manager\'s Identification Number?',
-    name: 'identification',
+    name: 'id',
 },
 
 {
@@ -25,7 +25,7 @@ const questions = [{
 {
     type: 'input',
     message: 'What is the team manager\'s office number?',
-    name: 'number',
+    name: 'office',
 },
 
 {
@@ -43,13 +43,13 @@ const questions = [{
 {
     type: 'input',
     message: 'What is your engineer\'s id?',
-    name : 'identification',
+    name : 'id2',
     // choices: ["Engineer", "Intern", "No more team members to add "],
 },
 {
     type: 'input',
     message: 'What is your engineer\'s email?',
-    name : 'email',
+    name : 'email1',
     // choices: ["Engineer", "Intern", "No more team members to add "],
 },
 {
@@ -73,13 +73,13 @@ const questions = [{
 {
     type: 'input',
     message: 'What is your intern\'s id?',
-    name : 'identification',
+    name : 'id3',
     // choices: ["Engineer", "Intern", "No more team members to add "],
 },
 {
     type: 'input',
     message: 'What is your intern\'s email?',
-    name : 'email',
+    name : 'email2',
     // choices: ["Engineer", "Intern", "No more team members to add "],
 },
 {
