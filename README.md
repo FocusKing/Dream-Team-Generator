@@ -1,6 +1,9 @@
 # Dream-Team-Generator
 ## Resources 
 [GitHubLink](https://github.com/FocusKing/Dream-Team-Generator)
+
+
+[Screencastify-Link](https://drive.google.com/file/d/1q1MM5qO6cuBPR3s47kFH91dza_ShOGd7/view)
 ## Badges
 ![stayCLEAN](https://img.shields.io/badge/stay-CLEAN-blue)
 
@@ -47,7 +50,6 @@ SO THAT I have quick access to their emails and GitHub profiles
 ## Credits
  I was fortunate enough to get additional assistance from class mates either during office hours or during private study group sessions after class. I truly appreciate any help that I have received throughout this project.
 
-[Screencastify-Link](https://drive.google.com/file/d/1q1MM5qO6cuBPR3s47kFH91dza_ShOGd7/view)
 
 
 ## License
