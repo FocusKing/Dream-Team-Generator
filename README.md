@@ -1,6 +1,6 @@
 # Dream-Team-Generator
 ## Resources 
-[GitHubLink]
+[GitHubLink](https://github.com/FocusKing/Dream-Team-Generator)
 ## Badges
 ![stayCLEAN](https://img.shields.io/badge/stay-CLEAN-blue)
 
